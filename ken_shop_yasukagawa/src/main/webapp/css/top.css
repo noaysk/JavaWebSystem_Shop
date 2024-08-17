@@ -1,0 +1,56 @@
+/*--table--*/
+
+.selected_item{
+	width:280px;
+	border:0px;
+}
+
+.selected_item td{
+	width:160px;
+}
+
+.selected_category{
+	width:540px;
+	border:0px;
+	background:#dddddd;
+	color:#FFFFFF;
+}
+
+.selected_category td{
+	width:auto;
+	text-align:center;
+	background:#000000;
+}
+
+.selected_category td:first-child,.selected_category td:last-child{
+	width:130px;
+	text-align:center;
+	background:#000000;
+}
+
+
+.items {
+	width: 540px;
+	display: table;
+}
+.lineup_img, .lineup_btn {
+	width: 130px;
+	display: table-cell;
+ 	vertical-align: middle;
+	text-align: center;
+ 	border: solid 1px #000000;
+ 	padding:5px;
+}
+.lineup {
+	width: auto;
+	height: auto;
+	display: table-cell;
+ 	vertical-align: middle;
+	text-align: center;
+ 	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+}
+
+.err_message{
+	color:red;
+}

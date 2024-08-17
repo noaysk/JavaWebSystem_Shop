@@ -1,0 +1,59 @@
+table{
+	border:1px solid;
+}
+
+.regist_form{
+	width:540px;
+}
+
+.regist_form,.regist_form td{
+	border:1px solid;
+}
+
+.cart {
+	width: 200px;
+	border:1px solid;
+	text-align:center;
+}
+.items {
+	width: 538px;
+	display: table;
+	text-align:center;
+}
+
+.items input[type="submit"]{
+	background: #999999;
+	font-size:9pt;
+	color:#ffffff;
+}
+
+.lineup_btn {
+	width: auto;
+	display: table-cell;
+ 	vertical-align: middle;
+	text-align: center;
+ 	border: solid 1px #000000;
+}
+.lineup {
+	width: 135px;
+	font-size: x-small;
+	height: auto;
+	display: table-cell;
+ 	vertical-align: middle;
+ 	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+	border-left: solid 1px #000000;
+}
+
+.order_confirm{
+	text-align:center;
+
+}
+
+.order_confirm span{
+	color:blue;
+}
+
+.back{
+	text-align:right;
+}
